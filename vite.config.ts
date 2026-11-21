@@ -4,6 +4,8 @@ import { fileURLToPath, URL } from 'node:url';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // "/" locally and on most hosts. A GitHub Pages project site lives under "/<repo>/": set VITE_BASE or use `npm run build:pages`.
+  base: process.env.VITE_BASE || '/',
   plugins: [react()],
   resolve: {
     alias: {

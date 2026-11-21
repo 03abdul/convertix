@@ -29,7 +29,7 @@ export default function App() {
       <FeedbackProvider>
         <DialogProvider>
         <DownloadProvider>
-          <BrowserRouter>
+          <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
               <Routes>
                 <Route element={<AppLayout />}>
                   <Route path="/" element={<Dashboard />} />

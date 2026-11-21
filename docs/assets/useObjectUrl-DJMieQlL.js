@@ -1,0 +1,1 @@
+import{r as n}from"./react-vendor-De-qBIbo.js";function s(e){const[u,t]=n.useState(null);return n.useEffect(()=>{if(!e){t(null);return}const r=URL.createObjectURL(e);return t(r),()=>URL.revokeObjectURL(r)},[e]),u}export{s as u};

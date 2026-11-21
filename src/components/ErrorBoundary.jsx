@@ -18,7 +18,7 @@ function Fallback({ error, fullScreen }) {
           <button type="button" onClick={() => window.location.reload()} className="rounded-xl bg-gradient-to-r from-primary-700 to-primary-600 px-5 py-2.5 text-sm font-semibold text-white transition-all hover:from-primary-600 hover:to-primary-500">
             Reload page
           </button>
-          <a href="/" className="rounded-xl border border-white/10 bg-white/5 px-5 py-2.5 text-sm font-semibold text-dark-100 transition-colors hover:bg-white/10">
+          <a href={import.meta.env.BASE_URL} className="rounded-xl border border-white/10 bg-white/5 px-5 py-2.5 text-sm font-semibold text-dark-100 transition-colors hover:bg-white/10">
             Go to Dashboard
           </a>
         </div>

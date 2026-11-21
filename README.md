@@ -7,7 +7,7 @@
 **Convert, compress, edit and watermark images — plus PDF and Word tools — entirely in your browser.**
 Your files are processed on your own device. They are never uploaded.
 
-### [🔗 Live demo → 03abdul.github.io/convertix](https://03abdul.github.io/convertix/)
+### [🔗 Live demo → convertix-app-woad.vercel.app](https://convertix-app-woad.vercel.app/)
 
 ![Convertix dashboard](screenshots/dashboard.png)
 

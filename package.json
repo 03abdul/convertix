@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:pages": "vite build --base=/convertix/ --outDir=docs",
+    "build:pages": "vite build --base=/convertix/",
     "lint": "eslint .",
     "test": "node scripts/test.mjs",
     "preview": "vite preview"

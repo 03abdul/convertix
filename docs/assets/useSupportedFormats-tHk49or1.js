@@ -1,1 +1,0 @@
-import{r as u}from"./react-vendor-De-qBIbo.js";import{u as s}from"./imageService-D0GDgbxE.js";const n=["png","jpg","webp","bmp"];function c(){const[r,t]=u.useState(n);return u.useEffect(()=>{let e=!0;return s().then(o=>{e&&t(o)}),()=>{e=!1}},[]),r}function i(r,t){return t.includes(r)?r:t.includes("jpg")?"jpg":t[0]}export{i as p,c as u};
